@@ -1,0 +1,20 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "node demo",
+  "main": "index.js",
+  "scripts": {
+    "server": "node proxy_server.js",
+    "dev": "node build/dev-server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "express": "^4.15.4",
+    "http-proxy-middleware": "^0.17.4",
+    "opn": "^5.1.0"
+  }
+}
